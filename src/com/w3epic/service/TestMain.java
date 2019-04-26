@@ -21,7 +21,7 @@ public class TestMain {
 		sc.nextLine();
 		
 		for (int i = 1; i <= n; i++) {
-			System.out.println("Enter card " + n);
+			System.out.println("Enter card " + i);
 			char symbol = sc.nextLine().charAt(0);
 			int number = sc.nextInt();
 			
